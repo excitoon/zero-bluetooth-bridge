@@ -1,0 +1,8 @@
+.ufbt/
+build/
+dist/
+.vscode/
+*.o
+*.elf
+*.fap
+*.d

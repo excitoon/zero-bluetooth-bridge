@@ -1,0 +1,16 @@
+# For details & more options, see documentation/AppManifests.md in firmware repo
+
+App(
+    appid="ble_uart_bridge",
+    name="BLE UART Bridge",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="ble_uart_bridge_app",
+    stack_size=4 * 1024,
+    fap_category="GPIO",
+    fap_version="0.1",
+    fap_icon="ble_uart_bridge.png",
+    fap_description="Bridges BLE serial to GPIO UART for ESP32 Marauder",
+    fap_author="vova",
+    fap_icon_assets="images",
+    requires=["bt"],
+)
